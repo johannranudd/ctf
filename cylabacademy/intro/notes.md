@@ -2,3 +2,5 @@
 2. picoCTF{s3cur3_c0nn3ct10n_5d09a462}
 3. picoCTF{nEtCat_Mast3ry_95035DAa}
 4. picoCTF{next_time_I'll_try_2_rounds_of_rot13_45559abd}
+5. 0x3D -> from base-radix-16 -> picoCTF{61}
+6. picoCTF{101010}
