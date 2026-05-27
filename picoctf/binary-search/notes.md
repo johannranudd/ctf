@@ -1,0 +1,1 @@
+1. ssh -p 54373 ctf-player@atlas.picoctf.net
