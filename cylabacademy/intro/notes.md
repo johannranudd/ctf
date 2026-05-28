@@ -11,3 +11,9 @@
 11. strings it -> picoCTF{5tRIng5_1T_60eA8fdA}
 12. First Grep -> picoCTF{grep_is_good_to_find_things_9C6Ef2F7}
 13. where are the robots -> picoCTF{ca1cu1at1ng_Mach1n3s_cc6b1}
+14. Python Wrangling -> picoCTF{4p0110_1n_7h3_h0us3_9c5f9bcf}
+15. PW Crack 1 -> picoCTF{545h_r1ng1ng_fa343060}
+16. PW Crack 2 -> picoCTF{tr45h_51ng1ng_489dea9a}
+17. PW Crack 3 -> picoCTF{m45h_fl1ng1ng_6f98a49f}
+18. PW Crack 4 -> picoCTF{fl45h_5pr1ng1ng_cf341ff1}
+19. PW Crack 5 -> picoCTF{h45h_sl1ng1ng_fffcda23}
