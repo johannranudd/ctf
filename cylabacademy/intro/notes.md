@@ -25,3 +25,4 @@
 21. Big Zip -> picoCTF{gr3p_15_m4g1c_ef8790dc}
 22. vault-door-training -> picoCTF{w4rm1ng_Up_w1tH_jAv4_0009yrGMeEp}
 23. keygenme-py -> picoCTF{1n_7h3_kk3y_of_08c46aa4}
+24. buffer overflow 0 -> picoCTF{ov3rfl0ws_ar3nt_that_bad_ef01832d}
