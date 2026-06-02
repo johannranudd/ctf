@@ -6,3 +6,4 @@
 4. Magikarp Ground Mission -> picoCTF{xxsh_0ut_0f_//4t3r_0b24fc4f}
 5. First Find -> picoCTF{f1nd_15_f457_ab443fd1}
 6. Static ain't always noise -> picoCTF{d15a5m_t34s3r_20335e41}
+7. plumbing -> picoCTF{digital_plumb3r_d3246b6B}
