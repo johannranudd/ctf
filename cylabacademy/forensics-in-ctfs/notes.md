@@ -32,3 +32,14 @@ icat -o 360448 disk.flag.img  2371
 flag: picoCTF{by73_5urf3r_2f22df38}
 --------------------------------------------------------------------------
 7. extensions -> picoCTF{now_you_know_about_extensions}
+8. St3g0 -> zsteg -> picoCTF{7h3r3_15_n0_5p00n_a9a181eb}
+9. what lies within -> picoCTF{h1d1ng_1n_th3_b1t5}
+10. Packets Primer -> picoCTF{p4ck37_5h4rk_01b0a0d6}
+11. Wireshark doo dooo do doo... -> picoCTF{p33kab00_1_s33_u_deadbeef}
+    1.  5322b67379dc00ac0559e07f2dd9c65050cc2b
+    2.  Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}
+    3.  The flag is picoCTF{p33kab00_1_s33_u_deadbeef}
+12. Trivial Flag Transfer Protocol -> picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
+    1.  VHFRQGURCEBTENZNAQUVQVGJVGU-QHRQVYVTRAPR.PURPXBHGGURCUBGBF
+    2.  IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS
+    3.  steghide extract -sf picture3.bmp -p DUEDILIGENCE
