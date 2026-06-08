@@ -46,3 +46,14 @@ UwkkM+srAQK+sVVR0Qbl0yU=
     5. picoCTF{rs4_k3y_1n_1mg_d8526dc3}
 
 12. Shared Secrets -> picoCTF{dh_s3cr3t_32ec2679}
+
+13. Password Profiler -> picoCTF{Aj_15901990}
+    1.  hash.txt: 968c2349040273dd57dc4be7e238c5ac200ceac5
+    2.  userinfo.txt:
+        1.  First Name: Alice
+            Surname: Johnson
+            Nickname: AJ
+            Birthdate: 15-07-1990
+            Partner's Name: Bob
+            Child's Name: Charlie
+    3. picoCTF{Aj_15901990}
