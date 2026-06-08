@@ -57,3 +57,15 @@ UwkkM+srAQK+sVVR0Qbl0yU=
             Partner's Name: Bob
             Child's Name: Charlie
     3. picoCTF{Aj_15901990}
+
+14. MultiCode -> picoCTF{nested_enc0ding_848a466b}
+15. Binary Digits -> picoCTF{h1dd3n_1n_th3_b1n4ry_2c2db635}
+16. Riddle Registry -> picoCTF{puzzl3d_m3tadata_f0und!_c8f91d68}
+17. Log Hunt -> picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
+18. Hidden in plainsight -> picoCTF{h1dd3n_1n_1m4g3_656e4d79}
+    1.  steghide:cEF6endvcmQ=
+    2.  pAzzword
+    3.  picoCTF{h1dd3n_1n_1m4g3_656e4d79}
+
+19. Flag in Flame -> picoCTF{forensics_analysis_is_amazing_ac1e3584}
+20. 
