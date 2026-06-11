@@ -116,6 +116,18 @@ UwkkM+srAQK+sVVR0Qbl0yU=
     2.  picoCTF{c00k1e_m0nster_l0ves_c00kies_A6FA07D8}
 
 32. Rust fixme 1 -> picoCTF{4r3_y0u_4_ru$t4c30n_n0w?}
-33. Rust fixme 2 -> 
-     
-34. Rust fixme 3 -> 
+33. Rust fixme 2 -> picoCTF{4r3_y0u_h4v1n5_fun_y31?}
+34. Rust fixme 3 -> picoCTF{n0w_y0uv3_f1x3d_1h3m_411}
+35. RED -> picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_}
+36. Ph4nt0m 1ntrud3r -> picoCTF{1t_w4snt_th4t_34sy_tbh_4r_af160980}
+    1.  YmhfNHJfYQ==H = bh_4r_a
+    2.  bnRfdGg0dA==H = nt_th4t
+    3.  cGljb0NURg==H = picoCTF
+    4.  f160980
+    5.  ÷$¼TC
+    6.  _34sy_t
+    7.  }
+    8.  {1t_w4s
+
+
+
