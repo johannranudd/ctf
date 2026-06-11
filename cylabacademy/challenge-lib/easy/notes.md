@@ -109,3 +109,13 @@ UwkkM+srAQK+sVVR0Qbl0yU=
     5.  picoCTF{UseStr0nG_h@shEs_&PaSswDs!_93e052d7}
 
 28. Flag Hunters -> picoCTF{70637h3r_f0r3v3r_c373964d}
+29. FANTASY CTF -> picoCTF{m1113n1um_3d1710n_2d78cdd9}
+30. EVEN RSA CAN BE BROKEN??? -> picoCTF{tw0_1$_pr!m341c6ed35}
+31. Cookie Monster Secret Recipe -> picoCTF{c00k1e_m0nster_l0ves_c00kies_A6FA07D8}
+    1.  Server: Apache/2.4.54 (Debian)
+    2.  picoCTF{c00k1e_m0nster_l0ves_c00kies_A6FA07D8}
+
+32. Rust fixme 1 -> picoCTF{4r3_y0u_4_ru$t4c30n_n0w?}
+33. Rust fixme 2 -> 
+     
+34. Rust fixme 3 -> 
