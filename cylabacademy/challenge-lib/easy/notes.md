@@ -129,5 +129,10 @@ UwkkM+srAQK+sVVR0Qbl0yU=
     7.  }
     8.  {1t_w4s
 
+37. Verify -> picoCTF{trust_but_verify_c6c8b911}
+38. Scan Surprise -> picoCTF{p33k_@_b00_7843f77c}
+39. Binary Search -> picoCTF{g00d_gu355_ee8225d0}
+40. heap 0 -> picoCTF{my_first_heap_overflow_1ad0e1a6}
+
 
 
