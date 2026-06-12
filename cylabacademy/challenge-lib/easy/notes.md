@@ -133,6 +133,22 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 38. Scan Surprise -> picoCTF{p33k_@_b00_7843f77c}
 39. Binary Search -> picoCTF{g00d_gu355_ee8225d0}
 40. heap 0 -> picoCTF{my_first_heap_overflow_1ad0e1a6}
+41. format string 0 -> picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_a1d85b3e}
+    1.  Pe20021560_Portobello
+    2.  $outhwest_Burger
+    3.  ClaCla%sic_Che%s%steakic_CheCla%sic_Che%s%steak(null)teak
+    4.  Gr                                                                                                       -2051337766_Cheese
+    5.  Pe2566660556611600_Portobello
+    6.  picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_a1d85b3e}
 
+42. WebDecode -> picoCTF{web_succ3ssfully_d3c0ded_df0da727}
+43. Unminify -> picoCTF{pr3tty_c0d3_dbe259ce}
+44. Time Machine -> picoCTF{t1m3m@ch1n3_88c35e3b}
+45. Super SSH -> picoCTF{s3cur3_c0nn3ct10n_5d09a462}
+46. Secret of the Polyglot -> picoCTF{f1u3n7_1n_pn9_&_pdf_1f991f77}
+    1.  1n_pn9_&_pdf_1f991f77}
+    2.  picoCTF{f1u3n7_
 
-
+47. IntroToBurp -> picoCTF{#0TP_Bypvss_SuCc3$S_2e80f1fd}
+48. interencdec -> picoCTF{caesar_d3cr9pt3d_890d2379}
+49. endianness
