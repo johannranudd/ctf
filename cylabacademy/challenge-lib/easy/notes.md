@@ -151,4 +151,24 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 
 47. IntroToBurp -> picoCTF{#0TP_Bypvss_SuCc3$S_2e80f1fd}
 48. interencdec -> picoCTF{caesar_d3cr9pt3d_890d2379}
-49. endianness
+49. endianness -> picoCTF{3ndi4n_sw4p_su33ess_817b7cfe}
+    1.  word: fswxq
+    2.  hex: 0x66 0x73 0x77 0x78 0x71
+    3.  little: 71 78 77 73 66
+
+50. Commitment Issues -> picoCTF{s@n1t1z3_c785c319}
+51. Collaborative Development -> picoCTF{t3@mw0rk_m@k3s_th3_dr3@m_w0rk_7ffa0077}
+52. CanYouSee -> picoCTF{ME74D47A_HIDD3N_d8c381fd}
+53. Bookmarklet -> picoCTF{p@g3_turn3r_cebccdfe} 
+    1.          javascript:(function() {
+            var encryptedFlag = "àÒÆÞ¦È¬ëÙ£ÖÓÚåÛÑ¢ÕÓÉÕËÆÒÇÚËí";
+            var key = "picoctf";
+            var decryptedFlag = "";
+            for (var i = 0; i < encryptedFlag.length; i++) {
+                decryptedFlag += String.fromCharCode((encryptedFlag.charCodeAt(i) - key.charCodeAt(i % key.length) + 256) % 256);
+            }
+            alert(decryptedFlag);
+        })();
+
+54. Blame Game -> picoCTF{@sk_th3_1nt3rn_81e716ff}
+55. binhexa -> picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_675602ae}
