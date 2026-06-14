@@ -174,4 +174,8 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 55. binhexa -> picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_675602ae}
 56. repetitions -> picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_3f81f7be}
 57. Local Authority -> picoCTF{j5_15_7r4n5p4r3n7_05df90c8}
-58. 
+58. Inspect HTML -> picoCTF{1n5p3t0r_0f_h7ml_1fd8425b}
+59. Includes -> picoCTF{1nclu51v17y_1of2_f7w_2of2_b8f4b022}
+60. runme.py -> picoCTF{run_s4n1ty_run}
+61. HashingJobApp -> picoCTF{4ppl1c4710n_r3c31v3d_674c1de2}
+62. Glitch Cat -> picoCTF{gl17ch_m3_n07_a4392d2e}
