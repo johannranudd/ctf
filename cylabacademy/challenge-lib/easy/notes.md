@@ -172,3 +172,6 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 
 54. Blame Game -> picoCTF{@sk_th3_1nt3rn_81e716ff}
 55. binhexa -> picoCTF{b1tw^3se_0p3eR@tI0n_su33essFuL_675602ae}
+56. repetitions -> picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_3f81f7be}
+57. Local Authority -> picoCTF{j5_15_7r4n5p4r3n7_05df90c8}
+58. 
