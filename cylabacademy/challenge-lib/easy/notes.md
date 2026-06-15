@@ -179,3 +179,23 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 60. runme.py -> picoCTF{run_s4n1ty_run}
 61. HashingJobApp -> picoCTF{4ppl1c4710n_r3c31v3d_674c1de2}
 62. Glitch Cat -> picoCTF{gl17ch_m3_n07_a4392d2e}
+63. Cookies -> http://wily-courier.picoctf.net:50250/
+64. GET aHEAD -> picoCTF{r3j3ct_th3_du4l1ty_8b13f07}
+65. Transformation -> picoCTF{16_bits_inst34d_of_8_b7f62ca5}
+66. Scavenger Hunt -> picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_9588550}
+67. The Numbers -> picoCTF{thenumbersmason}
+    1.  16 9 3 15 3 20 6 { 20 8 5 14 21 13 2 5 18 19 13 1 19 15 14 }
+    2.  picoCTF{thenumbersmason}
+
+68. dont-use-client-side -> picoCTF{no_clients_plz_2eb02b45}
+    1.      if (checkpass.substring(0, split) == 'pico') {
+      if (checkpass.substring(split*6, split*7) == 'eb02') {
+        if (checkpass.substring(split, split*2) == 'CTF{') {
+         if (checkpass.substring(split*4, split*5) == 'ts_p') {
+          if (checkpass.substring(split*3, split*4) == 'lien') {
+            if (checkpass.substring(split*5, split*6) == 'lz_2') {
+              if (checkpass.substring(split*2, split*3) == 'no_c') {
+                if (checkpass.substring(split*7, split*8) == 'b45}') {
+
+69. 13 -> picoCTF{not_too_bad_of_a_problem}
+70. logon -> picoCTF{th3_c0nsp1r4cy_l1v3s_4d184b0d}
