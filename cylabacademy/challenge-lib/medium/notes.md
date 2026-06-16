@@ -13,4 +13,9 @@
 3. 1_wanna_b3_a_r0ck5tar ->   picoCTF{BONJOVI}
    1. mlitjssbs
 
-4.  
+4. like1000 -> picoCTF{l0t5_0f_TAR5}
+5. Irish-Name-Repo 1 -> 
+   </b>:  Uncaught Error: Call to a member function fetchArray() on boolean in /var/www/html/login.php:18
+   Stack trace:
+   #0 {main}
+   thrown in <b>/var/www/html/login.php</b>z
