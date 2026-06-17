@@ -23,4 +23,5 @@
    1. username=admin' OR'1'='1&password=password123&debug=0
    2. Your flag is: picoCTF{s0m3_SQL_85832275}
 
-6. vault-door-5 -> picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_7ffa94}
+6. vault-door-1 -> picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_7ffa94}
+7. vault-door-3 -> picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_e60bc2}
