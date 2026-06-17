@@ -14,8 +14,13 @@
    1. mlitjssbs
 
 4. like1000 -> picoCTF{l0t5_0f_TAR5}
-5. Irish-Name-Repo 1 -> 
+5. Irish-Name-Repo 1 -> picoCTF{s0m3_SQL_85832275}
    </b>:  Uncaught Error: Call to a member function fetchArray() on boolean in /var/www/html/login.php:18
    Stack trace:
    #0 {main}
    thrown in <b>/var/www/html/login.php</b>z
+
+   1. username=admin' OR'1'='1&password=password123&debug=0
+   2. Your flag is: picoCTF{s0m3_SQL_85832275}
+
+6. vault-door-5 -> picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_7ffa94}
