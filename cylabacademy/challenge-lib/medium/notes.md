@@ -25,3 +25,14 @@
 
 6. vault-door-1 -> picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_7ffa94}
 7. vault-door-3 -> picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_e60bc2}
+8. vault-door-4 -> picoCTF{jU5t_4_bUnCh_0f_bYt3s_e021387213}
+9. vault-door-5 -> picoCTF{c0nv3rt1ng_fr0m_ba5e_64_4185551e}
+   1.  JTYzJTMwJTZlJTc2JTMzJTcyJTc0JTMxJTZlJTY3JTVmJTY2JTcyJTMwJTZkJTVmJTYyJTYxJTM1JTY1JTVmJTM2JTM0JTVmJTM0JTMxJTM4JTM1JTM1JTM1JTMxJTY1
+   2.  from base64: %63%30%6e%76%33%72%74%31%6e%67%5f%66%72%30%6d%5f%62%61%35%65%5f%36%34%5f%34%31%38%35%35%35%31%65
+   3. URL decode:  c0nv3rt1ng_fr0m_ba5e_64_4185551e
+
+10. vault-door-6 -> 
+
+01010101 -> 0x55
+00111011 -> 0x3b
+
