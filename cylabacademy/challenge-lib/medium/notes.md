@@ -31,8 +31,11 @@
    2.  from base64: %63%30%6e%76%33%72%74%31%6e%67%5f%66%72%30%6d%5f%62%61%35%65%5f%36%34%5f%34%31%38%35%35%35%31%65
    3. URL decode:  c0nv3rt1ng_fr0m_ba5e_64_4185551e
 
-10. vault-door-6 -> 
+10. vault-door-6 -> picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_faae8b4}
 
 01010101 -> 0x55
 00111011 -> 0x3b
+--------
+01101110 -> n
 
+11. Client-side-again -> 
