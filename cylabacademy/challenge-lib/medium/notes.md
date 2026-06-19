@@ -47,4 +47,20 @@
     1. SQL injection but ROT 13 the injection since it gets changed before read by SQL:   
        1. password=' BE 1=1--&debug=1   because BE = OR with ROT13
 
-14. 
+14. c0rrupt -> picoCTF{c0rrupt10n_1847995}
+15. WhitePages -> picoCTF{not_all_spaces_are_created_equal_983fa43f23feeae01adc4cbf26e51fc5}
+```bash
+#!/usr/bin/env bash
+
+python3 - <<'PY'
+from pathlib import Path
+
+data = Path("whitepages.txt").read_text(encoding="utf-8")
+
+bits = data.replace("\u2003", "0").replace(" ", "1")
+
+print(bits)
+PY
+```
+
+16. flag_shop -> 
