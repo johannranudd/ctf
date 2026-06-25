@@ -63,4 +63,4 @@ print(bits)
 PY
 ```
 
-16. flag_shop -> 
+16. flag_shop -> picoCTF{m0n3y_bag5_44cFf530}
