@@ -64,3 +64,36 @@ PY
 ```
 
 16. flag_shop -> picoCTF{m0n3y_bag5_44cFf530}
+17. Easy1 -> picoCTF{CRYPTOISFUN}
+    1.  SU = C
+    2.  OF = R
+    3.  LJ = Y
+    4.  VK = P
+    5.  EX = T
+    6.  CQ = O
+    7.  RZ = I
+    8.  YQ = S
+    9.  PU = F
+    10. TN = U
+    11. OB = N
+    12. CRYPTOISFUN
+
+18. Mr-Worldwide -> picoCTF{KODIAK_ALASKA}
+    1. 35.028309, 135.753082 = Kyoto, Japan
+    2. 46.469391, 30.740883 = Odessa, Ukraine 
+    3. 39.758949, -84.191605 = Dayton, USA
+    4. 41.015137, 28.979530 = Istanbul, Turkey
+    5. 24.466667, 54.366669 = Abu Dhabi, UAE
+    6. 3.140853, 101.693207 = Kuala Lumput, Malaysia
+    7. _
+    8. 9.005401, 38.763611 = Addos Ababa, Ethiopia
+    9. -3.989038, -79.203560 = Loja, Ecuador
+    10. 52.377956, 4.897070 = Amsterdam, Netherlands
+    11. 41.085651, -73.858467 = Sleepy Hollow, USA
+    12. 57.790001, -152.407227 = Kodiak, Alaska, USA
+    13. 31.205753, 29.924526 = ALexandria, Egypt
+        1.  picoCTF{KODIADKL_AALASHKA}
+        2.  picoCTF{JUUTUM_EENUUE}
+        3.  picoCTF{KODIAK_ALASKA}
+
+19. 
