@@ -96,4 +96,5 @@ PY
         2.  picoCTF{JUUTUM_EENUUE}
         3.  picoCTF{KODIAK_ALASKA}
 
-19. 
+19. waves over lambda -> frequency_is_c_over_lambda_b613e7dd
+    1. https://www.guballa.de/substitution-solver 
