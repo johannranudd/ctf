@@ -97,4 +97,27 @@ PY
         3.  picoCTF{KODIAK_ALASKA}
 
 19. waves over lambda -> frequency_is_c_over_lambda_b613e7dd
-    1. https://www.guballa.de/substitution-solver 
+    1. https://www.guballa.de/substitution-solver
+
+20. Based -> picoCTF{learning_about_converting_values_aa2bA794}
+21. Flags -> PICOCTF{F1AG5AND5TUFF}
+    1.  picoCTF{f?ag?and?tuff}
+    2.  picoCTF{f200ag100and100tuff}
+    3.  picoCTF{flag_and_tuff}
+    4.  picoCTF{flag_and_stuff}
+    5.  picoCTF{flag_andstuff}
+    6.  picoCTF{fsagmandmtuff}
+    7.  PICOCTF{F1AG_AND_5TUFF}
+    8.  PICOCTF{F1AG5AND5TUFF}
+
+22. m00nwalk -> picoCTF{beep_boop_im_in_space}
+    - git clone https://github.com/colaclanth/sstv.git
+    - cd sstv
+    - python3 -m venv venv
+    - source venv/bin/activate
+    - pip install -U pip
+    - pip install .
+    - sstv -d ~/Documents/git_hub/ctf/cylabacademy/challenge-lib/medium/message.wav \
+    - picoCTF{beep_boop_im_in_space}
+
+23. 
