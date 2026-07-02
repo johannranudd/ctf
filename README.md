@@ -10,4 +10,5 @@ This repository contains completed and ongoing CTF challenges.
 - Sleuthkit - https://github.com/sleuthkit/sleuthkit/wiki/The_Sleuth_Kit_commands
 - RSA decoder - https://www.dcode.fr/rsa-cipher
 - wordlist generator: https://github.com/Mebus/cupp
-- substitution solver: https://www.guballa.de/substitution-solver
+- substitution solver: https://www.guballa.de/substitution-solver7
+- JWT: https://www.jwt.io/

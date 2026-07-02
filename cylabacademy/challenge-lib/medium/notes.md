@@ -176,3 +176,9 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.gtqDl4jVDvNbEe_JYEZT
 
 send with GET in burp:
 picoCTF{jawt_was_just_what_you_thought_bbb82bd4a57564aefb32d69dafb60583}
+
+23. Tapping -> 
+.--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-. ----- -.. ...-- .---- ... ..-. ..- -. ---.. .- .- -.... ..--- -.. -.-. .- }
+PICOCTF{M0RS3C0D31SFUN8AA62DCA}
+--------------------
+24. 
