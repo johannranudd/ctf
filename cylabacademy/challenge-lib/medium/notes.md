@@ -186,3 +186,19 @@ PICOCTF{M0RS3C0D31SFUN8AA62DCA}
 3622 - 19 = 3603
 flag: 0xe13
 ------------------------
+25. so meta -> 
+picoCTF{s0_m3ta_b309a657}
+-------------------------
+26. music 
+114 114 114 111 99 107 110 114 110 48 49 49 51 114
+rrrocknrn0113r
+picoCTF{rrrocknrn0113r}
+-------------------------
+27. picobrowser -> 
+change user-agent in burp suite to "picobrowser"
+picoCTF{p1c0_s3cr3t_ag3nt_fba5c48f}
+-----------------------------
+29. john_pollard -> 
+use: https://www.dcode.fr/rsa-cipher and entar certificate, work your way inn.
+picoCTF{73176001,67867967}
+30. 
