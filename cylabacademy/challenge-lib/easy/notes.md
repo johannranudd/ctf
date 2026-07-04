@@ -199,3 +199,23 @@ UwkkM+srAQK+sVVR0Qbl0yU=
 
 69. 13 -> picoCTF{not_too_bad_of_a_problem}
 70. logon -> picoCTF{th3_c0nsp1r4cy_l1v3s_4d184b0d}
+---------------
+71. Trust But Verify -> 
+academy{7ru57_15_34rn3d_2fd6fcdc}
+---------------
+72. Perceptron Train XOR -> 
+academy{x0r_unl34rn4bl3_by_p3rc3ptr0ns_d7c0c598}
+-----------------
+73. Perceptron Train XNOR
+academy{xn0r_unl34rn4bl3_by_p3rc3ptr0ns_c7fdacfc}
+--------------
+74. Perceptron Train Classic 2 Alpha
+academy{perceptron_classic_2_alpha_5rates_11934bdb}
+-------------------------
+76. Perceptron Train Classic 1
+academy{perceptron_classic_5rates_813951f0}
+--------------
+77. Perceptron Train Classic 0
+academy{perceptron_classic_mode_3ddb3b37}
+------------
+78. 
