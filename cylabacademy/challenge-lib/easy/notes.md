@@ -218,4 +218,7 @@ academy{perceptron_classic_5rates_813951f0}
 77. Perceptron Train Classic 0
 academy{perceptron_classic_mode_3ddb3b37}
 ------------
-78. 
+78. Perceptron Train 3-Bit Parity
+academy{3b1t_p4r1ty_unl34rn4bl3_l1n34rly_2a4a71a5}
+------------
+79. Perceptron Play Naught
