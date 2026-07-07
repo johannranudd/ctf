@@ -222,3 +222,26 @@ academy{perceptron_classic_mode_3ddb3b37}
 academy{3b1t_p4r1ty_unl34rn4bl3_l1n34rly_2a4a71a5}
 ------------
 79. Perceptron Play Naught
+academy{n4ught_bu7_53p4r4b13_9f26db48}
+--------------
+80. Perceptron Play Alpha
+academy{11n34r1y_53p4r4813_6490425d}
+-----------
+81. Perceptron Play 1D Alpha
+academy{0n3_d_thr35h0ld_0291d6fb}
+-----------
+82. Neuron Meet 0
+academy{n3ur0n_m3t_4c7c437a}
+------------
+83. Neuron Express 2D-0
+academy{n3ur0n_expr_2d_32e4b2b4}
+------------
+84. Neuron Meet 2D-04
+academy{2d_n3ur0n_m3t_f45161f5}
+------------
+85. Neuron Express 0
+academy{n3ur0n_expr_f075f57b}
+-------------
+86. Assistant or Agent?
+academy{4551574n7_0r_463n7_c17cee7a}
+----------------

@@ -201,4 +201,7 @@ picoCTF{p1c0_s3cr3t_ag3nt_fba5c48f}
 29. john_pollard -> 
 use: https://www.dcode.fr/rsa-cipher and entar certificate, work your way inn.
 picoCTF{73176001,67867967}
-30. 
+----------------------------
+30. la cifra de
+picoCTF{b311a50_0r_v1gn3r3_c1ph3rdAAB11d9}
+using: https://cryptii.com/pipes/vigenere-cipher/
