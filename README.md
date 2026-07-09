@@ -12,3 +12,4 @@ This repository contains completed and ongoing CTF challenges.
 - wordlist generator: https://github.com/Mebus/cupp
 - substitution solver: https://www.guballa.de/substitution-solver7
 - JWT: https://www.jwt.io/
+- system call: https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
